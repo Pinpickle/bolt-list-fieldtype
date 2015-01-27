@@ -16,7 +16,7 @@ class Extension extends BaseExtension
 
     public function getName()
     {
-        return "extensionname";
+        return "List Fieldtype";
     }
 
 }

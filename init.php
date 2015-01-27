@@ -1,5 +1,5 @@
 <?php
 
-namespace Bolt\Extension\Yourname\Extensionname;
+namespace Bolt\Extension\Pinpickle\ListType;
 
 $app['extensions']->register(new Extension($app));

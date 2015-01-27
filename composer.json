@@ -1,6 +1,6 @@
 {
-    "name": "bolt/bolt-extension-starter",
-    "description": "A description about your extension should go here.",
+    "name": "pinpickle/bolt-list-fieldtype",
+    "description": "Arbitrarily repeating content in Bolt records.",
     "type": "bolt-extension",
     "require": {
         "bolt/bolt": ">=2.0.0,<3.0.0"
@@ -8,8 +8,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com"
+            "name": "Christian Silver",
+            "email": "christian@decode.org.nz"
         }
     ],
     "autoload": {
@@ -17,7 +17,7 @@
             "init.php"
         ],
         "psr-4": {
-            "Bolt\\Extension\\Yourname\\Extensionname\\": ""
+            "Bolt\\Extension\\Pinpickle\\ListType\\": ""
         }
     },
 
