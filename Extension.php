@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\Yourname\Extensionname;
+namespace Bolt\Extension\Pinpickle\ListType;
 
 use Bolt\Application;
 use Bolt\BaseExtension;
