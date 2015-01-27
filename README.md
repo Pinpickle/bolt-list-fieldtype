@@ -3,6 +3,32 @@ Bolt List Fieldtype
 
 Arbitrarily repeating content extension for Bolt.
 
+## Protip: This doesn't work yet
+
+## Usage
+
+Just add a `list` field to your contenttype. Set `limit` if you want a limit on repetitions. Set item to contain 1 repeating item:
+
+````yaml
+mylist:
+    type: list
+    item:
+        type: textarea
+````
+
+Or if you want a selection of different kinds of items to add, use `items`:
+
+````yaml
+mylist:
+    type: list
+    items:
+        blockquote:
+            type: textarea
+        image:
+            type: image
+    default_item: blockquote #optionally set which item to add by default. Default will default to the first item    
+````
+
 ## License
 
 The MIT License (MIT)
